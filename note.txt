@@ -1,0 +1,21 @@
+mọi lệnh đều dùng "yarn", tuy nhiên nếu dùng muốn sử dụng migration phải chạy "npm"
+
+đầu tiên
+yarn (đê update package)
+
+
+Tạo folder migrations
+
+npm run migration:create --name:Test1     
+(muốn tạo 1 file migration)
+
+npm run migration:generate --name:Data
+(để migration toàn bộ file database)
+(Data là tên do mình tự đặt cho file migration)
+
+
+npm run migration:run 
+(để cập nhật database vào csdl)
+
+
+Tác giả: Chinhpro
